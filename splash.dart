@@ -26,10 +26,10 @@ class _SplashState extends State<Splash> {
       body: Stack(
         children: [
           Container(
-            color: Colors.yellow,
+            color: Colors.green.shade200,
           ),
           Center(
-            child: Image.asset('assets/image/LOGOS.png'),
+            child: Image.asset('assets/image/logoo.png'),
           ),
         ],
       ),
