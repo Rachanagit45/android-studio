@@ -32,8 +32,13 @@ class _DashboardState extends State<Dashboard> {
       appBar: AppBar(
         backgroundColor: Colors.lightGreen,
 
-        title: Text('EXOTIC FRUITS', style:TextStyle(color: Colors.black),)
-
+        title: Text('EXOTIC FRUITS', style:TextStyle(color: Colors.black),),
+         actions[
+                     PopupMenuButton(
+            onSelected: (item)=> handleCLick(item),
+            
+         )
+         ]
 
       ),
       body: _tabs[_currentIndex], // Display the current tab's screen
